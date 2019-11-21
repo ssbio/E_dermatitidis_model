@@ -1,0 +1,46 @@
+RID: VDVEWHVU015	
+Job Title:XP_009155657.1 from E. dermatitidis onto Human				
+Program: BLASTP 
+Database: nr All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF excluding environmental samples from WGS projects
+Query #1:  Query ID: lcl|Query_6662 Length: 381
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+melanoma antigen gp 75 [Homo sapiens]                             39.7   39.7  53%   0.020 24.19  CAA35820.1       
+
+
+Alignments:
+>melanoma antigen gp 75, partial [Homo sapiens]
+Sequence ID: CAA35820.1 Length: 248 
+Range 1: 3 to 201
+
+Score:39.7 bits(91), Expect:0.020, 
+Method:Compositional matrix adjust., 
+Identities:52/215(24%), Positives:78/215(36%), Gaps:26/215(12%)
+
+Query  117  FLTWHRYYLHLFEQDLAAQCGYTGL-IPYWNWPATADNLHGSAVFDGSEYSMSGDGEYID  175
+            FLTWHRY+L   E+D+          +PYWN+ AT  N+      D      + D   I 
+Sbjct  3    FLTWHRYHLLRLEKDMQEMLQEPSFSLPYWNF-ATGKNVCDICTDDLMGSRSNFDSTLIS  61
+
+Query  176  NGPV-----VLSPFLQLPHGSGGGCVTS--GPFAGLQTTMAEISIDNLIAGLPLPNTTFQ  228
+               V     V+   L+     G  C ++  GP   ++   A      ++  LP P    Q
+Sbjct  62   PNSVFSQWRVVCDSLEDYDTLGTLCNSTEDGP---IRRNPAGNVARPMVQRLPEPQDVAQ  118
+
+Query  229  LNQTCL--TRDLNTYAAQRYCNYTALYEALETDDLLTFDHLINGVIGGAELGLHSGAHFI  286
+              +  L  T    + +   + N    Y                G    A   LH+ AH  
+Sbjct  119  CLEVGLFDTPPFYSNSTNSFRNTVEGYSD------------PTGKYDPAVRSLHNLAHLF  166
+
+Query  287  VGAPASSIFVSVQDPIWWPLHAMLDNLYTSWQIRH  321
+            +        +S QDPI+  LH   D ++  W  R+
+Sbjct  167  LNGTGGQTHLSSQDPIFVLLHTFTDAVFDEWLRRY  201
+
+
+
+
+
+
+
+		
+
+

@@ -1,0 +1,8 @@
+Target: Exophiala dermatitidis
+Filepath: E:\Paper_Files\Ed_paper\Model Files\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+ANI Aspergillus nidulans
+AOR Aspergillus oryzae
+ANG Aspergillus niger

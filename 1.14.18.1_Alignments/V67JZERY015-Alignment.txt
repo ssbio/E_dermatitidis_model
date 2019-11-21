@@ -1,0 +1,173 @@
+RID: V67JZERY015	
+Job Title:Xp_660403 on Ed				
+Program: BLASTP 
+Database: nr All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF excluding environmental samples from WGS projects
+Query #1:  Query ID: lcl|Query_13331 Length: 557
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+tyrosinase [Exophiala dermatitidis NIH/UT8656]                    62.8   103   26%   8e-11 37.50  XP_009157733.1   
+retrograde regulation protein 2 [Exophiala dermatitidis...        59.3   94.0  21%   1e-09 32.50  XP_009154348.1   
+tyrosinase [Exophiala dermatitidis NIH/UT8656]                    52.8   52.8  19%   1e-07 29.51  XP_009155657.1   
+retrograde regulation protein 2 [Exophiala dermatitidis...        51.6   51.6  14%   3e-07 28.70  XP_009157714.1   
+MFS transporter, ACS family, allantoate permease [Exophiala...    38.9   38.9  7%    0.003 43.18  XP_009156055.1   
+retrograde regulation protein 2 [Exophiala dermatitidis...        33.1   33.1  6%    0.18  44.74  XP_009155560.1   
+
+
+Alignments:
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009157733.1 Length: 405 
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY57272.1 Length: 405  
+Range 1: 320 to 402
+
+Score:62.8 bits(151), Expect:8e-11, 
+Method:Compositional matrix adjust., 
+Identities:33/88(38%), Positives:45/88(51%), Gaps:5/88(5%)
+
+Query  192  ADIKSSPGDSVFFMHHMYVDRIWWLWQKQDPINRLYDISGPTLNHTANIEPAGGWQNATL  251
+             D+ +SP +  FF+HH  +DR WW+WQ QD  NR    +G T        P G   +  +
+Sbjct  320  GDLFASPAEPTFFLHHAQIDRTWWIWQNQDLKNRGNAFAGGTSTLDPTGSPPGKLTDPII  379
+
+Query  252  HYELSSFGIMPNVTIAEVMSTQGGYLCY  279
+               L+      +VT  +VMST GG LCY
+Sbjct  380  MGSLAE-----DVTNQDVMSTTGGPLCY  402
+
+
+
+
+Range 2: 69 to 130
+
+Score:40.4 bits(93), Expect:9e-04, 
+Method:Compositional matrix adjust., 
+Identities:20/62(32%), Positives:32/62(51%), Gaps:2/62(3%)
+
+Query  33   SEGCTEDRMTVRKEWRHLTGPQHQAFLDALQCLMEKPAQSGLTA--TTSRFSDLQALHRG  90
+            S  C      +R+EW  L+  + +A++DA  CLM KP++    A    +R+ D  A+H  
+Sbjct  69   SGKCNLLNAAIRREWSTLSKQERRAYIDAELCLMSKPSKDPAFAAGAKTRYDDFVAVHIN  128
+
+Query  91   MT  92
+             T
+Sbjct  129  QT  130
+
+
+
+>retrograde regulation protein 2 [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009154348.1 Length: 506 
+>retrograde regulation protein 2 [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY53887.1 Length: 506  
+Range 1: 286 to 404
+
+Score:59.3 bits(142), Expect:1e-09, 
+Method:Compositional matrix adjust., 
+Identities:39/120(33%), Positives:55/120(45%), Gaps:29/120(24%)
+
+Query  427  SYMNFWLKSLNRYSVSQMNTYPTVTNAITILTSLLYGWTSD--------------LFQIR  472
+            +Y + WLKSL+R+SV Q+N +PT   A+ ++T+L Y W SD              LF   
+Sbjct  286  NYFSVWLKSLDRFSVYQVNLFPTAAQALGLVTTLAYSWISDGLGGKRWQLMIPPALFNFV  345
+
+Query  473  ----------YPIVFFSLTIRARSWSGFLTRV----NEVCAGDSPERKIILGSTNSIAEG  518
+                      Y   FF   I A SW G+   V    NE C  D+ ER I++G   +  + 
+Sbjct  346  GMVIVAAYPGYGATFFGYMINAASW-GYWPIVYAWANEFCHEDAEERAIVIGVAQTFGQA  404
+
+
+
+
+Range 2: 57 to 82
+
+Score:34.7 bits(78), Expect:0.064, 
+Method:Compositional matrix adjust., 
+Identities:15/26(58%), Positives:18/26(69%), Gaps:0/26(0%)
+
+Query  382  NAYFAGMKEELNVTGNQYQSFTTMWT  407
+            NAY +GMKE+LN  GNQY    T +T
+Sbjct  57   NAYVSGMKEDLNFHGNQYNLLATFFT  82
+
+
+
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009155657.1 Length: 381 
+>tyrosinase, variant [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009155658.1 Length: 381 >tyrosinase, variant [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY55196.1 Length: 381 >tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY55197.1 Length: 381  
+Range 1: 49 to 168
+
+Score:52.8 bits(125), Expect:1e-07, 
+Method:Compositional matrix adjust., 
+Identities:36/122(30%), Positives:56/122(45%), Gaps:14/122(11%)
+
+Query  36   CTEDRMTVRKEWRHLTGPQHQAFLDALQCLMEKPAQSGLT---ATTSRFSDLQALHRGMT  92
+            CTED+  +R+++  L   + +AF DA++C+M KP+Q   T   A T+R+ D    H  +T
+Sbjct  49   CTEDKKLIRRDFDSLAPEERKAFTDAIKCMMTKPSQLDQTLYPAATNRYMDYAVTHVNLT  108
+
+Query  93   NTAYAD---------IIHHVNEQLDADSGNMWQSPMWGADAFGGNGTGSDISVTDGRFAN  143
+               +            +H   + L A  G     P W   A   N  GS  +V DG   +
+Sbjct  109  QQVHLSGFFLTWHRYYLHLFEQDLAAQCGYTGLIPYWNWPATADNLHGS--AVFDGSEYS  166
+
+Query  144  MT  145
+            M+
+Sbjct  167  MS  168
+
+
+
+>retrograde regulation protein 2 [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009157714.1 Length: 499 
+>retrograde regulation protein 2 [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY57253.1 Length: 499  
+Range 1: 331 to 438
+
+Score:51.6 bits(122), Expect:3e-07, 
+Method:Compositional matrix adjust., 
+Identities:31/108(29%), Positives:55/108(50%), Gaps:29/108(26%)
+
+Query  438  RYSVSQMNTYPTVTNAITILTSLLYGWTSD-LFQ-IRYPIVFFSLTIRARSWSGF-----  490
+            +Y+VS++NTYPT T A+ I+++L+Y WTSD +F+  R+P + F   +    +S       
+Sbjct  331  KYTVSEINTYPTTTYAVQIVSTLVYAWTSDSIFRGARWPPIVFGGLVCIVCYSSLAAWDI  390
+
+Query  491  ----------------------LTRVNEVCAGDSPERKIILGSTNSIA  516
+                                  ++  +E+C+ D+ ER I+ G+ N +A
+Sbjct  391  PTGWHWACYMIAGCGGGLSGLCMSWAHEICSDDNEERAIVTGTMNEMA  438
+
+
+
+>MFS transporter, ACS family, allantoate permease [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009156055.1 Length: 488 
+>MFS transporter, ACS family, allantoate permease [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY55594.1 Length: 488  
+Range 1: 286 to 328
+
+Score:38.9 bits(89), Expect:0.003, 
+Method:Compositional matrix adjust., 
+Identities:19/44(43%), Positives:31/44(70%), Gaps:1/44(2%)
+
+Query  426  GSYMNFWLKSLNRYSVSQMNTYPTVTNAITILTSLLYGWTSDLF  469
+            G+++  WLKSL+RYS S++N    + +A+ I + LL  ++SDLF
+Sbjct  286  GAFL-LWLKSLDRYSDSKLNALGAIPSAVGIFSVLLICFSSDLF  328
+
+
+
+>retrograde regulation protein 2 [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009155560.1 Length: 492 
+>retrograde regulation protein 2 [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY55099.1 Length: 492  
+Range 1: 291 to 328
+
+Score:33.1 bits(74), Expect:0.18, 
+Method:Compositional matrix adjust., 
+Identities:17/38(45%), Positives:23/38(60%), Gaps:0/38(0%)
+
+Query  431  FWLKSLNRYSVSQMNTYPTVTNAITILTSLLYGWTSDL  468
+             WLKSLNRYS S++N   +   A+ I  +L   + SDL
+Sbjct  291  LWLKSLNRYSKSRVNELGSTAPALGIFYTLFVCFASDL  328
+
+
+
+
+
+
+
+		
+
+

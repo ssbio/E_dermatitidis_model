@@ -1,0 +1,111 @@
+RID: V67U2X1V015	
+Job Title:XP_001820973 on Ed				
+Program: BLASTP 
+Database: nr All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF excluding environmental samples from WGS projects
+Query #1:  Query ID: lcl|Query_69563 Length: 592
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+tyrosinase [Exophiala dermatitidis NIH/UT8656]                    81.3   81.3  65%   2e-16 23.72  XP_009160170.1   
+tyrosinase [Exophiala dermatitidis NIH/UT8656]                    32.7   65.1  22%   0.24  25.26  XP_009157733.1   
+hypothetical protein HMPREF1120_06056 [Exophiala dermatitidis...  28.5   28.5  6%    5.4   44.44  XP_009158499.1   
+
+
+Alignments:
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009160170.1 Length: 614 
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY59709.1 Length: 614  
+Range 1: 59 to 381
+
+Score:81.3 bits(199), Expect:2e-16, 
+Method:Compositional matrix adjust., 
+Identities:93/392(24%), Positives:151/392(38%), Gaps:71/392(18%)
+
+Query  22   PLDKFVRAFKYIQSLPADHDDSFHKLGGYHGEPFHYEKAPPNRSSKWWGGYCFHGCVLFP  81
+            P D FV +    Q++   +  S+ ++ G HG P           S  + G+C H    FP
+Sbjct  59   PFDLFVLSLIAFQAVNQSNPLSYFQVSGIHGFPRIPWDGVVGTGS--YPGFCTHAATPFP  116
+
+Query  82   TWHRAYMLRFEQALRTAPGCEDVTLPFWDECAGLVGRPSVGLRPHHLIPRVLTMRT-YEL  140
+            TWHR YM  FEQ L      +D+   F          PS             + RT Y+ 
+Sbjct  117  TWHRPYMALFEQVLWMH--AQDIAATF----------PS-------------SQRTEYQN  151
+
+Query  141  DGQTIPNPLFSFKLKQKIEDLTVGKEQHYSKPEGYETVRYPLSGMVGTQEDEENTKIHNA  200
+               ++  P + + +   + D+    +   + P G +TV+ PL   V  Q D         
+Sbjct  152  AALSLRVPYWDWAINPALPDVVTQPQISINTPSGRKTVKNPLYSYV-FQSDAAGNGF---  207
+
+Query  201  RFSDAESERLLNVNVTNWLITGPRHIPTRQGAKPPSDTTSILARYLKCLDTDTYTIFSNT  260
+                  S+ + N   T       R   T   +   S   + L      + + TY +F+  
+Sbjct  208  ----PSSDPMANFGET------VRWWNTATQSSNQSAANAALMANAPTILSLTYQLFTAV  257
+
+Query  261  TSQTKLMEKLCRERNEGHWLMSLESPHNGIHLAIGGFFQQGEDGTNADEIDDANGDMGDN  320
+            T+ T           +G    ++E+ HN IH ++GG+                 G M   
+Sbjct  258  TNYTYF--SCTWPGGQGGVANNIEAIHNSIHNSVGGY-----------------GHMQFP  298
+
+Query  321  ETAGFDPIFFLHHCFIDYMFWQWQLRHGATETLTIDEGDPGAKVPEG-GILDLPEGEQLT  379
+            E AGFDP+F+LHH  +D +F  WQ  +   ++  +   +      EG G +D       +
+Sbjct  299  EVAGFDPVFWLHHANVDRLFAMWQALY--PDSFLVPTVNAYGSYYEGVGFVD-------S  349
+
+Query  380  MDTPLPPFVKPGEKNYYTSKDMVNIESLGYTY  411
+              + L PF        +TS  + +I++ GY+Y
+Sbjct  350  GTSALAPFHSDDGSTMFTSDAVRSIKTFGYSY  381
+
+
+
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009157733.1 Length: 405 
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY57272.1 Length: 405  
+Range 1: 275 to 346
+
+Score:32.7 bits(73), Expect:0.24, 
+Method:Compositional matrix adjust., 
+Identities:24/95(25%), Positives:34/95(35%), Gaps:23/95(24%)
+
+Query  250  DTDTYTIFSNTTSQTKLMEKLCRERNEGHWLMSLESPHNGIHLAIGGFFQQGEDGTNADE  309
+            D+D Y + +N              R +G++       H   H   GG             
+Sbjct  275  DSDVYDLIANYHDILSF-----ENRMQGNFTAGFYGVHTAGHFTTGG-------------  316
+
+Query  310  IDDANGDMGDNETAGFDPIFFLHHCFIDYMFWQWQ  344
+              D  GD+  +     +P FFLHH  ID  +W WQ
+Sbjct  317  --DPGGDLFASPA---EPTFFLHHAQIDRTWWIWQ  346
+
+
+
+
+Range 2: 133 to 168
+
+Score:32.3 bits(72), Expect:0.33, 
+Method:Compositional matrix adjust., 
+Identities:15/37(41%), Positives:19/37(51%), Gaps:1/37(2%)
+
+Query  74   FHGCVLFPTWHRAYMLRFEQALRTAPGCEDVTLPFWD  110
+             HG   F +WHR +   FEQALR   G      P+W+
+Sbjct  133  IHGTANFLSWHRYFTWAFEQALRNECGYTGYQ-PYWN  168
+
+
+
+>hypothetical protein HMPREF1120_06056 [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009158499.1 Length: 407 
+>hypothetical protein HMPREF1120_06056 [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY58038.1 Length: 407  
+Range 1: 219 to 251
+
+Score:28.5 bits(62), Expect:5.4, 
+Method:Compositional matrix adjust., 
+Identities:16/36(44%), Positives:21/36(58%), Gaps:3/36(8%)
+
+Query  238  TTSILARYLKCLDTDTYTIFSNTTSQTKLMEKLCRE  273
+            T   L RYLK ++ DTYT F    S  KL+ ++ RE
+Sbjct  219  TEQKLERYLKRVNADTYTPFG---SLDKLLARMIRE  251
+
+
+
+
+
+
+
+		
+
+

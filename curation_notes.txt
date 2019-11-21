@@ -1,0 +1,220 @@
+Things Done:
+R00287[c] removed to break thermodynamically infesible cycle (TIC)
+R00292[c] removed to break TIC
+R01718[c] removed because 3 of 4 overlap does not contain this enzyme, reaction does not link with anything else
+R02111[c] removed to break TIC
+R02739[c] removed to break TIC
+R04780[c] removed to break TIC
+R01821[c] removed to break TIC
+R00200[c] direction reversed because it was incorrect
+R00755[c] direction reversed because it was incorrect
+rearranged glycolysis/gluconeogenesis and TCA pathways. Filtered out reactions not in those pathways to be under general catagories
+R1737[c] removed, uses reactant not present anywhere else
+R02107[c] added reaction to allow flow through another reaction. Must check EC 1.17.1.4 (or R02107/1.17.3.2)
+R02106[c] added from 3 of 4 EC reaction list
+R06605[c] added because it is spontaneous (no need for enzyme)
+R03925[c] added because it is a racemic reaction (no need for enzyme)
+R04144[c] gap filled from costas iSce926
+R04208[c] gap filled from costas iSce926
+R03013[c] gap filled from costas iSce926
+R01159[c] gap filled from costas iSce926
+R04558[c] gap filled from costas iSce926
+R01071[c] gap filled from costas iSce926
+R04035[c] gap filled from costas iSce926
+R04037[c] gap filled from costas iSce926
+R03223[c] gap filled from costas iSce926
+R01934[c] gap filled from 3 of 4 EC reaction list
+R01939[c] gap filled from costas iSce926
+R02315[c] gap filled from costas iSce926. Compartment changed to cytosol to keep consistment with rest of synthesis pathway (original: mitochondria) using heuristic of intermediates generally not transported
+R00271[c] gap filled from costas iSce926. Compartment changed to cytosol to keep consistment with rest of synthesis pathway (original: nucleus) using heuristic of intermediates generally not transported
+R00178[c] gap filled from costas iSce926
+R01914[c] gap filled from 3 of 4 EC reaction list
+R01920[c] gap filled from 3 of 4 EC reaction list
+R02896[c] gap filled from 3 of 4 EC reaction list
+R00670[c] gap filled from 3 of 4 EC reaction list
+R00239[c] gap filled from costas iSce926
+R03314[c] added because it is non-enzymatic
+R01715[c] gap filled from 3 of 4 EC reaction list
+R00694[c] gap filled from 3 of 4 EC reaction list
+R00734[c] gap filled from 3 of 4 EC reaction list
+R03509[c] gap filled from costas iSce926
+R01073[c] gap filled from costas iSce926
+R03508[c] gap filled from costas iSce926
+R00674[c/im] deleted to breack TIC
+R00677[c] gap filled from 3 of 4 EC reaction list
+R01975[c] gap filled from 3 of 4 EC reaction list
+R01974[c] gap filled from 3 of 4 EC reaction list
+R00678[c] gap filled from costas iSce926
+R04293[c] added because it is non-enzymatic
+R03026[c] gap filled from 3 of 4 EC reaction list
+R04909[c], R02701[c], R02911[c] deleted for being distantly unconnected
+R04421[c], R05052[c] deleted for being distantly unconnected
+LDOPA melanin pathway filled in from "Synthesis and assembly of fungal melanin" by Eisenman and Casadevall in Applied Microbial Biotechnology and mapping to KEGG reactions
+DHN melanin pathway filled in from "Synthesis and assembly of fungal melanin" by Eisenman and Casadevall in Applied Microbial Biotechnology and mapping to a KEGG reaction for the first step
+DHN melanin pathway filled in from "Molecular genetic studies of the model dematiaceous pathogen Wangiella dermatitidis." by Szaniszlo, P J
+R00734[c] gap filled from 3 of 4 EC reaction list
+R02521[c] gap filled from 3 of 4 EC reaction list
+R04379[c] deleted for being distantly unconnected
+R03302[c] gap filled from 3 of 4 EC reaction list
+R04888[c] gap filled from 3 of 4 EC reaction list
+R04889[c] gap filled from 3 of 4 EC reaction list
+R04890[c] added to fill a gap, no proof though, needs blast (EC 1.4.3.4)
+1,8-dihydroxynaphthalene does not exist in ModelSeed or KEGG databases. Will assign name of X00001
+reactions involving 1,8-dihydroxynaphthalene does not exist in ModelSeed or KEGG databases. Will use reaction R900 to represent C04033 to X00001 and R901 to represent X00001 to C17937. In reality R900 is a multi-step reaction, but I have no way to break it down.
+Pyomelanin pathway filled in using "Production of Pyomelanin, a Second Types of Melanin via the Tyrosine Degradation Pathway in Aspergillus fumigatus" Schmaler-Ripcke et. al. 2009
+The following compounds have no model seed or kegg IDs
+X00002 - Benzoquinoneacetate
+X00003 - Pyomelanin
+The following reactions have no model seed or kegg equivalent
+R902[c] - Homogentisate to Benzoquinoneacetate
+R903[c] - polymerization of Benzoquinoneacetate to form Pyomelanin
+reactions related only to fatty acid synthesis in cytosol were deleted, as the pathway is significantly more complete in the mitochondria
+reactions related only to fatty acid elongation in cytosol were deleted, as the pathway is significantly more complete in the mitochondria
+R04749[im] gap filled from costas iSce926
+R04746[im] gap filled from costas iSce926
+R04744[im] gap filled from costas iSce926
+R04170[im] gap filled from costas iSce926
+R04740[im] gap filled from costas iSce926
+R04738[im] gap filled from costas iSce926
+R06985[im] gap filled from costas iSce926
+R03776[im] gap filled from costas iSce926
+R04753[im] gap filled from costas iSce926
+R03856[im] gap filled from costas iSce926
+R03989[im] gap filled from costas iSce926
+R01278[im] gap filled from costas iSce926
+R04737[im] gap filled from 3 of 4 EC reaction list
+R04739[im] gap filled from 3 of 4 EC reaction list
+R04741[im] gap filled from 3 of 4 EC reaction list
+R04743[im] gap filled from 3 of 4 EC reaction list
+R04745[im] gap filled from 3 of 4 EC reaction list
+R04748[im] gap filled from 3 of 4 EC reaction list
+R01975[im] gap filled from 3 of 4 EC reaction list
+R02241 deleted by reason of being a general reaction (specific reactions already in model)
+R02239 deleted by reason of being a general reaction (specific reactions already in model)
+R02251 deleted by reason of being a general reaction (specific reactions already in model)
+R02250 deleted by reason of being a general reaction (specific reactions already in model)
+R02687 deleted by reason of being a general reaction (specific reactions already in model)
+R03078 gap filled from 3 of 4 EC reaction list
+R01762[c] gap filled from 3 of 4 EC reaction list
+R03078[c] gap filled from 3 of 4 EC reaction list
+R00416[c] gap filled from costas iSce926
+R02636[c] added to connect reactions, need to blast (EC: 4.1.1.67)
+R03530[c] deleted for being distantly unconnected
+R01411[c] deleted for being distantly unconnected
+R02133[c], R04448[c], R03223[c], R03471[c] deleted to break TIC in thimine synthesis
+R02099[c] added to connect reactions, need to blast (EC: 2.7.1.21)
+R03425[c] deleted for being a general reaction
+R03758[c] added as a spontaneous reaction
+R01745[c] gap filled from 3 of 4 EC reaction list
+R02473[c] gap filled from costas iSce926
+R04391[c], R02971[c] deleted since reactants have no synthesis pathway
+R02649[c] gap filled from costas iSce926
+R02649[c] gap filled from costas iSce926
+R02649[c] gap filled from costas iSce926
+At this point eliminated infeasible cycling
+Removed 1,6-Beta-D-Glucan from biomass as it is not in the biomass equation of any aspergillus model (not sure how it got there)
+TRNA removed from biomass equation (minor component not synthesized in Aspergillus models)
+R904[c] added to produce glycogen as a condensation reaction from C00103
+hydrolysis of dNTP/dNDP added to synthesize dNMP for biomass production
+R07281[c] gapfilled from costas iSce926
+R00066[c] gapfilled from costas iSce926
+R00877[c] gap filled from 3 of 4 EC reaction list
+Lipid (C01356) composition taken from source "Production of Lipid and Fatty Acids during Growth of Aspwergillus terreus on Hydrocarbon substrates" by Kuma, Vatsyayan and Goswami 2009
+The following reactions were added so that relevant lipids may be synthesized: R01706[im], R07762[im], R07763[im], R07764[im], R07765[im], R03370[im], R08163[im], R02814[im]
+Unsaturated fatty acid synthesis pathway parts are added to make sure the fatty acids could be synthesized
+R905[im] lipid synthesis based on the ratio of lipids for those lipids synthesized in the model based on data for Aspergillus terreus
+R00895[c] removed because not in costas iSce926 or in 3 of 4
+R06975[c] and R01127[c] added for synthesis of purines
+R01373[c] gapfilled from costas iSce926
+R01731[c] removed, metabolite not used
+R01730[c] gapfilled from costas iSce926
+R01373[c] gapfilled from costas iSce926
+Removed DNA/RNA synthesis
+R02340[c] removed to remove cycling
+R03130[c], R04909[c], and R03629[c] are removed for being distantly unconnected. 
+cellulose removed from model
+R904[c] and R01602[c] added for isomers of C00031[c]
+R00941[c] added to recycle C00234 and C00101
+Don't know where biomass equation came from. for now will use A. terreus biomass equation (removed FA, generalized fatty acid; pc, phospholipid; tagly, triglyerol; pe, phosphatidylethanolamine; removed d-mannitol; paa[c] removed, unidentified)
+R02019[c], R01855[c], R01856[c], R01968[c], R01969[c], R02092[c] eliminated because not needed
+thiosulfate reactions eliminated, nothing in costas iSce926 or 3 of 4 can produce this metabolite
+R00897[c] gapfilled from 3 of 4 EC list
+R01433[c] removed because distantly unconnected
+L-arabiose synthesis pathway removed because product is not used
+R01334[c] removed for being distantly unconnected
+R00529[c] removed for being distantly unconnected
+nucleotide phosphates have proton symport as in costas iSce926
+R04944[c] deleted because it was blocked and substrate is nowhere else
+R04944[c], R04942[c] deleted because it was causing cycling
+R01025[c] removed, distantlyuncommected
+R01514[c] gapfilled from costas iSce926
+R00515[c], R00510[c] eliminated because of possible cycling.
+R02016[c] added to recycle thioredoxin (thioredoxin only consumed, theoredoxin disulfinde only produced)
+R00999[c], R01288[c] eliminated for being unconnected with no gap-filling from 3 of 4 or costas model
+R00192[c] deleted for being unconnected with no gap-filling from 3 of 4 or costas model
+R04936[c] for being unconnected with no gap-filling from 3 of 4 or costas model
+R04931[c] gapfilled from 3 of 4 EC list
+R09371[im] gapfilled from 3 of 4 EC list
+R09372[im] has a metabolite only in a single KEGG reaction
+R00164[c] and R00162[c] deleted for being a general reaction which drains ATP while looping
+R03288[c] and R01159[c] deleted for being an unconnected dead end with not gapfill
+R02340[im] deleted for being distantly unconnected
+R00859[c] replaced with R00858[c] because don't have right compounds in model to deal with C00138/C00139
+R04773[im] removed for being connected only to general reactions
+R04771[c] for being uncommected with no gapfill options
+R02019[c], R01858[c] gapfilled from 3 of 4 EC list
+R04470[e] -> R04470[c] to match relevant pathway
+R04471[e] -> R04471[c] to match relevant pathway
+R01041[c] gapfilled from 3 of 4 EC list
+R01752[c] gapfilled from 3 of 4 EC list
+Synthesis of phospholipid would require synthesis of D-mannitol, isopropanol, acetone, and other compounds, before starting the synthesis pathway to lysphospholipid. Judged at this time that a complex synthesis pathway for a single (and minor) biomass component is not effective use of time.
+R02687[c] gapfilled (no evidence) but shortest way to generate necessary precursor for biomass component synthesis
+R00849[im] eliminated because it caused cycling
+R00851[c], R02241[c] gapfilled from 3 of 4 EC list
+R00538[c] gapfilled from 3 of 4 EC list
+R08657[im] eliminated because it caused cycling
+R00848[im] changed to R00848[c] to match rest of pathway
+R00847[c] gapfilled from 3 of 4 EC list
+R05333[im] changed to R05333[c] to match rest of pathway
+R04470[c], R04469[c], and R04471[c] removd for being distantly unconnected
+R01780[c] removed becaue C01656 only in a single KEGG reaction
+R03224[c] removed, this synthesis pathway would cause a loop
+C00040 equals C00024 if R = CH3. For simplicity of model, this assumption will be made
+R00414[c] added because evidence for in thesis on cell wall composition
+R01207[c] added because evidence for in thesis on cell wall composition
+s_0390[c] is ADP (C00008) from yeast 7.11 model
+s_0357[c] is xanthine (C00385) from yeast 7.11 model
+s_0207[c] is imidazol-acetol phosphate (C01267)
+s_1270[c] is orotidylic acid (C01103)
+s_1616, s_1617, s_1618, s_1619 is thioredoxin (C00342)
+s_1620, s_1621, s_1622, s_1623 is thioredoxin disulphide (C00343)
+s_1364 is C04751
+r_0032 is R00122
+r_0437 is R00017
+r_0501 is R01221
+r_0526 is R01676
+r_0538 is R03243
+r_0564 is R03457
+r_0821 is R00956
+r_0820 is R01870
+r_0911 is R07404
+r_0959 is R00224
+r_0961 is R00209
+r_0970 is R02014
+r_0971 is R02022
+r_0972 is R02020
+r_1038 is R02016
+r_0974 is R02017
+r_1091 is R02142
+R03557 removed for being genetic reaction
+Lysine appears to be a nutrient uptaken by similar fungi during infection as a nutrient source, source: Nutrient acquisition by pathogenic fungi: Nutrient availability, pathway regulation, and differences in substrate utilization
+	as a result, the lysine degredation pathway was taken from budding yeast and the gaps filled in for this organism so it can metabolize lysine
+ED can grow on acetate, glucose, and sucrose, source: Isolation and Analysis of the Acetate Regulatory Gene, facB, from Aspergillus nidulans
+Aspergillus can metabolize ethanol and lipids (not included in model) from host blood stream source: Fungal metabolism in host niches
+R05198[c] deleted, yeast does not have the enzyme for this
+R00746[c] eliminated, less plentiful enzyme
+R00711[c] eliminated, competing reaction has more plentiful enzyme
+R01933[c] eliminated as it is a multi-step reaction and we have all steps
+R02166[c] deleted, already had both steps of this reaction in R02163
+gluconeogenesis must be possible to grow from acetate and ethanol, possible according to source: The transcriptome of Exophiala dermatitidis during ex-vivo skin model infection
+R00754[c] is made irreversible forward and R00754[im] is made irreversible backwards to fix a near-TIC (flux >3000 for inputs of -10)

@@ -1,0 +1,182 @@
+RID: V689RFNM015	
+Job Title:XP_001389342 on Ed				
+Program: BLASTP 
+Database: nr All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF excluding environmental samples from WGS projects
+Query #1:  Query ID: lcl|Query_71615 Length: 406
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query    E    Per.                  
+Description                                                       Score  Score cover Value  Ident  Accession        
+tyrosinase [Exophiala dermatitidis NIH/UT8656]                    310    310   93%   5e-103 44.19  XP_009157733.1   
+tyrosinase [Exophiala dermatitidis NIH/UT8656]                    215    215   83%   8e-67  37.06  XP_009155657.1   
+tyrosinase [Exophiala dermatitidis NIH/UT8656]                    199    199   91%   2e-60  37.23  XP_009156893.1   
+tyrosinase [Exophiala dermatitidis NIH/UT8656]                    36.6   36.6  10%   0.010  40.91  XP_009160170.1   
+glucanase [Exophiala dermatitidis NIH/UT8656]                     28.9   28.9  29%   2.2    25.58  XP_009152666.1   
+
+
+Alignments:
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009157733.1 Length: 405 
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY57272.1 Length: 405  
+Range 1: 36 to 405
+
+Score:310 bits(793), Expect:5e-103, 
+Method:Compositional matrix adjust., 
+Identities:171/387(44%), Positives:228/387(58%), Gaps:23/387(5%)
+
+Query  26   ALSS---PAASSAAVAAAAAKLEQLSSYALDQTLANLPSSSEDSEACTRETLRIRRDWRT  82
+            ALSS   PA++      AA  L  L+ Y +          +  S  C      IRR+W T
+Sbjct  36   ALSSMYIPASTFQTDVLAAQGLVNLAVYQI----------THPSGKCNLLNAAIRREWST  85
+
+Query  83   FSKPEKEDYINSVLCLQELPSRTPSHLAPGAKTRYDDFLATHINQTLEIHYTGTFLAWHR  142
+             SK E+  YI++ LCL   PS+ P+  A GAKTRYDDF+A HINQTL IH T  FL+WHR
+Sbjct  86   LSKQERRAYIDAELCLMSKPSKDPA-FAAGAKTRYDDFVAVHINQTLSIHGTANFLSWHR  144
+
+Query  143  YFIYEFEQALRDECHYTGDYPYWDWGYDAIHTMEASEVFDGSETSMSGNGYFIPNQGNIS  202
+            YF + FEQALR+EC YTG  PYW+WG  A   +  S +FDGSE SMSGNG + P+    +
+Sbjct  145  YFTWAFEQALRNECGYTGYQPYWNWGKYAFDPLN-SPLFDGSEYSMSGNGEYAPHNCTNA  203
+
+Query  203  LYLGNYPAIVLPPGTGGGCVTSGPFKNYTVNMGPAA--LSLPGGSTASVSNPLNYNPRCL  260
+            +         +PPG+GGGCV +GPFK+Y VN+GP +  L +PG       +PL YNPRCL
+Sbjct  204  ITTN---LNCIPPGSGGGCVKTGPFKDYVVNLGPVSPTLQVPGIIDYKSDDPLAYNPRCL  260
+
+Query  261  KRSLTTALLQRYNTYPQITSLILDNDDVWDFEMTMQGVPGSGSIGVHGSGHYSMGGDPGR  320
+            +R +++ +   +     +  LI +  D+  FE  MQG   +G  GVH +GH++ GGDPG 
+Sbjct  261  RRDISSWVSSNWTKDSDVYDLIANYHDILSFENRMQGNFTAGFYGVHTAGHFTTGGDPGG  320
+
+Query  321  DVYVSPGDPAFWHHHGMIDRVWWIWQNLDLKSREYAISGTGTFLNEPASKNTTLQTVVDL  380
+            D++ SP +P F+ HH  IDR WWIWQN DLK+R  A +G  + L+   S    L   + +
+Sbjct  321  DLFASPAEPTFFLHHAQIDRTWWIWQNQDLKNRGNAFAGGTSTLDPTGSPPGKLTDPIIM  380
+
+Query  381  G-YAKGVPRRMKELMSTTKGLFCYAYV  406
+            G  A+ V    +++MSTT G  CY YV
+Sbjct  381  GSLAEDVTN--QDVMSTTGGPLCYIYV  405
+
+
+
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009155657.1 Length: 381 
+>tyrosinase, variant [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009155658.1 Length: 381 >tyrosinase, variant [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY55196.1 Length: 381 >tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY55197.1 Length: 381  
+Range 1: 49 to 377
+
+Score:215 bits(548), Expect:8e-67, 
+Method:Compositional matrix adjust., 
+Identities:126/340(37%), Positives:180/340(52%), Gaps:14/340(4%)
+
+Query  69   CTRETLRIRRDWRTFSKPEKEDYINSVLCLQELPSRTPSHLAPGAKTRYDDFLATHINQT  128
+            CT +   IRRD+ + +  E++ + +++ C+   PS+    L P A  RY D+  TH+N T
+Sbjct  49   CTEDKKLIRRDFDSLAPEERKAFTDAIKCMMTKPSQLDQTLYPAATNRYMDYAVTHVNLT  108
+
+Query  129  LEIHYTGTFLAWHRYFIYEFEQALRDECHYTGDYPYWDWGYDAIHTMEASEVFDGSETSM  188
+             ++H +G FL WHRY+++ FEQ L  +C YTG  PYW+W   A   +  S VFDGSE SM
+Sbjct  109  QQVHLSGFFLTWHRYYLHLFEQDLAAQCGYTGLIPYWNWPATA-DNLHGSAVFDGSEYSM  167
+
+Query  189  SGNGYFIPNQGNISLYLGNYPAIVLPPGTGGGCVTSGPFKNYTVNMGPAALSLPGGSTAS  248
+            SG+G +I N G + L     P + LP G+GGGCVTSGPF      M   ++         
+Sbjct  168  SGDGEYIDN-GPVVL----SPFLQLPHGSGGGCVTSGPFAGLQTTMAEISIDNLIAGLPL  222
+
+Query  249  VSNPLNYNPRCLKRSLTTALLQRYNTYPQITSLILDNDDVWDFEMTMQGVPGSGSIGVHG  308
+             +     N  CL R L T   QRY  Y  +    L+ DD+  F+  + GV G   +G+H 
+Sbjct  223  PNTTFQLNQTCLTRDLNTYAAQRYCNYTALYE-ALETDDLLTFDHLINGVIGGAELGLHS  281
+
+Query  309  SGHYSMGGDPGRDVYVSPGDPAFWHHHGMIDRVWWIWQ--NLDLKSREYAISGTGTFLNE  366
+              H+ +G  P   ++VS  DP +W  H M+D ++  WQ  + DL     A+ GT T  N 
+Sbjct  282  GAHFIVGA-PASSIFVSVQDPIWWPLHAMLDNLYTSWQIRHPDLAD---AVYGTETANNA  337
+
+Query  367  PASKNTTLQT-VVDLGYAKGVPRRMKELMSTTKGLFCYAY  405
+            P S N TL T     GY       +++++ST+ G FCY Y
+Sbjct  338  PPSPNVTLDTPQPGWGYFDPARYPIRDMISTSAGPFCYKY  377
+
+
+
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009156893.1 Length: 379 
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY56432.1 Length: 379  
+Range 1: 16 to 374
+
+Score:199 bits(506), Expect:2e-60, 
+Method:Compositional matrix adjust., 
+Identities:140/376(37%), Positives:194/376(51%), Gaps:20/376(5%)
+
+Query  33   SSAAVAAAAAKLEQLSSYALDQTLANLPSSSEDSEACTRETLRIRRDWRTFSKPEKEDYI  92
+            SS+ V+AA   L    S   +      P S    + C  ET+R R D+ + +  E++ Y 
+Sbjct  16   SSSLVSAAPQNLRHARSAEAN------PGSGWGYQTCNSETIRTRVDFNSMAPAERKAYT  69
+
+Query  93   NSVLCLQELPSRTPSHLAPGAKTRYDDFLATHINQTLEIHYTGTFLAWHRYFIYEFEQAL  152
+            ++V CL   PS+      P A  RY D+   H+N+T  +H    FL WHRYF++ +E  L
+Sbjct  70   DAVKCLMGKPSQLDPAQYPAAINRYMDYAVIHVNRTQYVHLDAFFLTWHRYFLWLYESDL  129
+
+Query  153  RDECHYTGDYPYWDWGYDAIHTMEASEVFDGSETSMSGNGYFIPNQGNISLYLGNYPAIV  212
+            R  C Y G +PYWD+   A     A  +FDGSE SMSG+G +  N G I+L       + 
+Sbjct  130  RQNCGYQGAFPYWDFAATA-SDPHAFPIFDGSEYSMSGDGLY-DNTGPITLGAN----LT  183
+
+Query  213  LPPGTGGGCVTSGPFKNYTVNMGPAALSLPGGSTASVSNP--LNYNPRCLKRSLTTALLQ  270
+            +P GTGGGCVT+GPF N    + P     P   T     P    YN  CL+R L   + Q
+Sbjct  184  IPHGTGGGCVTTGPFANM---IAPIKFIDPSNLTTGTLPPDAFAYNEICLQRDLNAYVSQ  240
+
+Query  271  RYNTYPQITSLILDNDDVWDFEMTMQGVPGSGSIGVHGSGHYSMGGDPGRDVYVSPGDPA  330
+             Y    ++T+      +  +FE  + G+ GS S+G+H   H+S+GG     ++VS  DP 
+Sbjct  241  TYTNQAELTA-AAHASNASEFEFLLNGIIGSSSLGIHSGAHFSIGGQ-MNSIHVSAQDPI  298
+
+Query  331  FWHHHGMIDRVWWIWQNLDLKSREYAISGTGTFLNEPASKNTTLQTVV-DLGYAKGVPRR  389
+            ++  H MIDRV+  WQ    +  +     TGT LN P S   TL TV  D GY +  P +
+Sbjct  299  WYPLHTMIDRVYTSWQTNYPELADQLDGSTGTALNIPPSPVVTLDTVEPDWGYFQLNPIQ  358
+
+Query  390  MKELMSTTKGLFCYAY  405
+            +KEL+STT G FCY Y
+Sbjct  359  VKELISTTAGPFCYQY  374
+
+
+
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009160170.1 Length: 614 
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY59709.1 Length: 614  
+Range 1: 281 to 324
+
+Score:36.6 bits(83), Expect:0.010, 
+Method:Compositional matrix adjust., 
+Identities:18/44(41%), Positives:25/44(56%), Gaps:1/44(2%)
+
+Query  306  VHGSGHYSMGGDPGRDV-YVSPGDPAFWHHHGMIDRVWWIWQNL  348
+            +H S H S+GG        V+  DP FW HH  +DR++ +WQ L
+Sbjct  281  IHNSIHNSVGGYGHMQFPEVAGFDPVFWLHHANVDRLFAMWQAL  324
+
+
+
+>glucanase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009152666.1 Length: 477 
+>glucanase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY52205.1 Length: 477  
+Range 1: 89 to 193
+
+Score:28.9 bits(63), Expect:2.2, 
+Method:Compositional matrix adjust., 
+Identities:33/129(26%), Positives:43/129(33%), Gaps:32/129(24%)
+
+Query  249  VSNPLNY-------NPRCLKRSLTTALLQRYNTYPQI-TSLILDNDDVWDFEMTMQGVPG  300
+            +  P NY       NPR LK S    L +  +   Q     ILD          M  VPG
+Sbjct  89   IRIPFNYRHFEDDINPRVLKESGFKHLDRVIDLCAQHGIYTILD----------MHTVPG  138
+
+Query  301  SGSIGVHGSGHYSMGGDPGRDVYVSPGDPAFWHHHGMIDRVWWIWQNLDLKSREYAISGT  360
+              S G H     S                AFW +    DR  W+W+ L  + ++      
+Sbjct  139  GQSPGWHADNTTSYA--------------AFWDYRDHQDRTVWLWEQLARRYKDNPWVAG  184
+
+Query  361  GTFLNEPAS  369
+               +NEP  
+Sbjct  185  YNPINEPCD  193
+
+
+
+
+
+
+
+		
+
+

@@ -1,0 +1,60 @@
+RID: V68B6ES1015	
+Job Title:XP_001395242 on Ed				
+Program: BLASTP 
+Database: nr All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF excluding environmental samples from WGS projects
+Query #1:  Query ID: lcl|Query_79352 Length: 643
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+tyrosinase [Exophiala dermatitidis NIH/UT8656]                    63.9   63.9  54%   6e-11 23.71  XP_009160170.1   
+
+
+Alignments:
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009160170.1 Length: 614 
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY59709.1 Length: 614  
+Range 1: 77 to 381
+
+Score:63.9 bits(154), Expect:6e-11, 
+Method:Compositional matrix adjust., 
+Identities:87/367(24%), Positives:136/367(37%), Gaps:76/367(20%)
+
+Query  40   NEDSFYTIAGYHGQP-FRGAGYGNRAWWGGFCHHGNVLFPTWHRAYVLRLEEALCNVSGN  98
+            N  S++ ++G HG P     G      + GFC H    FPTWHR Y+   E+ L   + +
+Sbjct  77   NPLSYFQVSGIHGFPRIPWDGVVGTGSYPGFCTHAATPFPTWHRPYMALFEQVLWMHAQD  136
+
+Query  99   PNLALPYWDEIADQSVPTIFTTRRYTLRDIGEVDNPLYSYKLSQGFFDNLGRSVSDEAGA  158
+                 P        S  T +     +LR       P + + ++    D + +        
+Sbjct  137  IAATFP-------SSQRTEYQNAALSLRV------PYWDWAINPALPDVVTQ--------  175
+
+Query  159  WTKKVDYSKPRHYETVRCPYSGLVGPNDKA------ATTMHNAAIDEAAASNALNASVRA  212
+               ++  + P   +TV+ P    V  +D A      +  M N        + A  +S ++
+Sbjct  176  --PQISINTPSGRKTVKNPLYSYVFQSDAAGNGFPSSDPMANFGETVRWWNTATQSSNQS  233
+
+Query  213  WLRNPAENGVPGMRQLYINAAWKAPNYTVFSNTTSAAKWNDDLFAREADWNDDFVVSVER  272
+                      P +  L         NYT FS T    +                  ++E 
+Sbjct  234  AANAALMANAPTILSLTYQLFTAVTNYTYFSCTWPGGQ-------------GGVANNIEA  280
+
+Query  273  PHNGVHLAVGGYFMPDMRYDRPFYPGANGDMGENDTAAFDPIFFFHHCFIDMVFHLWQRH  332
+             HN +H +VGGY                G M   + A FDP+F+ HH  +D +F +WQ  
+Sbjct  281  IHNSIHNSVGGY----------------GHMQFPEVAGFDPVFWLHHANVDRLFAMWQAL  324
+
+Query  333  HQATDHFDILP-------FYPGTSPIDSQGPTPGMSADSQLNMDTPLTPFPYTSRGVVNI  385
+            +   D F ++P       +Y G   +DS     G SA +  + D   T F  TS  V +I
+Sbjct  325  YP--DSF-LVPTVNAYGSYYEGVGFVDS-----GTSALAPFHSDDGSTMF--TSDAVRSI  374
+
+Query  386  RRLGYEY  392
+            +  GY Y
+Sbjct  375  KTFGYSY  381
+
+
+
+
+
+
+
+		
+
+

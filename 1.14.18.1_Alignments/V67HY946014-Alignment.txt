@@ -1,0 +1,212 @@
+RID: V67HY946014	
+Job Title:XP_658922 on ED				
+Program: BLASTP 
+Database: nr All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF excluding environmental samples from WGS projects
+Query #1:  Query ID: lcl|Query_72251 Length: 378
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query    E    Per.                  
+Description                                                       Score  Score cover Value  Ident  Accession        
+tyrosinase [Exophiala dermatitidis NIH/UT8656]                    392    392   89%   5e-136 57.14  XP_009157733.1   
+tyrosinase [Exophiala dermatitidis NIH/UT8656]                    218    218   81%   3e-68  39.24  XP_009155657.1   
+tyrosinase [Exophiala dermatitidis NIH/UT8656]                    176    176   80%   8e-52  37.38  XP_009156893.1   
+tyrosinase [Exophiala dermatitidis NIH/UT8656]                    46.6   46.6  56%   7e-06  24.79  XP_009160170.1   
+retrograde regulation protein 2 [Exophiala dermatitidis...        28.5   28.5  5%    2.8    50.00  XP_009154385.1   
+hypothetical protein HMPREF1120_05033 [Exophiala dermatitidis...  28.1   28.1  11%   4.2    26.32  XP_009157438.1   
+NADH dehydrogenase [Exophiala dermatitidis NIH/UT8656]            27.7   27.7  10%   5.1    36.84  XP_009153168.1   
+
+
+Alignments:
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009157733.1 Length: 405 
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY57272.1 Length: 405  
+Range 1: 50 to 388
+
+Score:392 bits(1008), Expect:5e-136, 
+Method:Compositional matrix adjust., 
+Identities:196/343(57%), Positives:235/343(68%), Gaps:8/343(2%)
+
+Query  29   DILAGKALANQVLYQFTKPRYTDSECTPFNAAVRREWGSLTKQERKEYIDAVICLTKSPS  88
+            D+LA + L N  +YQ T P     +C   NAA+RREW +L+KQER+ YIDA +CL   PS
+Sbjct  50   DVLAAQGLVNLAVYQITHP---SGKCNLLNAAIRREWSTLSKQERRAYIDAELCLMSKPS  106
+
+Query  89   KIDPALAPGARTRYDDFVAVHINQTLRIHTTGNFLTWHRYFTWAYEQALRNECGYTGYQP  148
+            K DPA A GA+TRYDDFVAVHINQTL IH T NFL+WHRYFTWA+EQALRNECGYTGYQP
+Sbjct  107  K-DPAFAAGAKTRYDDFVAVHINQTLSIHGTANFLSWHRYFTWAFEQALRNECGYTGYQP  165
+
+Query  149  YWSWGKYVDDLLGSPIFDGSEYSMSGDGSYIPHDGPEVFEGVF--LEPGNGGGCVTSGPF  206
+            YW+WGKY  D L SP+FDGSEYSMSG+G Y PH+           + PG+GGGCV +GPF
+Sbjct  166  YWNWGKYAFDPLNSPLFDGSEYSMSGNGEYAPHNCTNAITTNLNCIPPGSGGGCVKTGPF  225
+
+Query  207  KNFTVNLGPLWVTLNVPG-VEKQNGTGLDYNPRCLRRDINP-DAARWTTVEEVVDLINNY  264
+            K++ VNLGP+  TL VPG ++ ++   L YNPRCLRRDI+   ++ WT   +V DLI NY
+Sbjct  226  KDYVVNLGPVSPTLQVPGIIDYKSDDPLAYNPRCLRRDISSWVSSNWTKDSDVYDLIANY  285
+
+Query  265  RDISSFQDRLQGDFVNGYIGVHTGGHYTIGGDPAGDFYASPGDPAFFLHHAAIDRVFWTW  324
+             DI SF++R+QG+F  G+ GVHT GH+T GGDP GD +ASP +P FFLHHA IDR +W W
+Sbjct  286  HDILSFENRMQGNFTAGFYGVHTAGHFTTGGDPGGDLFASPAEPTFFLHHAQIDRTWWIW  345
+
+Query  325  QNLDPARRTFVVYGPTLLPGRGPSPNATLDDVQYFDVLAEAKT  367
+            QN D   R     G T       SP   L D      LAE  T
+Sbjct  346  QNQDLKNRGNAFAGGTSTLDPTGSPPGKLTDPIIMGSLAEDVT  388
+
+
+
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009155657.1 Length: 381 
+>tyrosinase, variant [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009155658.1 Length: 381 >tyrosinase, variant [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY55196.1 Length: 381 >tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY55197.1 Length: 381  
+Range 1: 49 to 356
+
+Score:218 bits(556), Expect:3e-68, 
+Method:Compositional matrix adjust., 
+Identities:124/316(39%), Positives:172/316(54%), Gaps:17/316(5%)
+
+Query  54   CTPFNAAVRREWGSLTKQERKEYIDAVICLTKSPSKIDPALAPGARTRYDDFVAVHINQT  113
+            CT     +RR++ SL  +ERK + DA+ C+   PS++D  L P A  RY D+   H+N T
+Sbjct  49   CTEDKKLIRRDFDSLAPEERKAFTDAIKCMMTKPSQLDQTLYPAATNRYMDYAVTHVNLT  108
+
+Query  114  LRIHTTGNFLTWHRYFTWAYEQALRNECGYTGYQPYWSWGKYVDDLLGSPIFDGSEYSMS  173
+             ++H +G FLTWHRY+   +EQ L  +CGYTG  PYW+W    D+L GS +FDGSEYSMS
+Sbjct  109  QQVHLSGFFLTWHRYYLHLFEQDLAAQCGYTGLIPYWNWPATADNLHGSAVFDGSEYSMS  168
+
+Query  174  GDGSYIPHDGPEVFEGVFLEP-GNGGGCVTSGPFKNFTVNLGPLWVTLNVPGVEKQNGTG  232
+            GDG YI  +GP V       P G+GGGCVTSGPF      +  + +   + G+   N T 
+Sbjct  169  GDGEYI-DNGPVVLSPFLQLPHGSGGGCVTSGPFAGLQTTMAEISIDNLIAGLPLPN-TT  226
+
+Query  233  LDYNPRCLRRDINPDAAR----WTTVEEVVDLINNYRDISSFQDRLQGDFVNGYIGVHTG  288
+               N  CL RD+N  AA+    +T + E ++      D+ +F   + G      +G+H+G
+Sbjct  227  FQLNQTCLTRDLNTYAAQRYCNYTALYEALET----DDLLTFDHLINGVIGGAELGLHSG  282
+
+Query  289  GHYTIGGDPAGDFYASPGDPAFFLHHAAIDRVFWTWQNLDPARRTFVVYGPTLLPGRGPS  348
+             H+ +G  PA   + S  DP ++  HA +D ++ +WQ   P      VYG        PS
+Sbjct  283  AHFIVGA-PASSIFVSVQDPIWWPLHAMLDNLYTSWQIRHPDLAD-AVYGTETANNAPPS  340
+
+Query  349  PNATLDDVQ----YFD  360
+            PN TLD  Q    YFD
+Sbjct  341  PNVTLDTPQPGWGYFD  356
+
+
+
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009156893.1 Length: 379 
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY56432.1 Length: 379  
+Range 1: 46 to 346
+
+Score:176 bits(445), Expect:8e-52, 
+Method:Compositional matrix adjust., 
+Identities:114/305(37%), Positives:153/305(50%), Gaps:5/305(1%)
+
+Query  54   CTPFNAAVRREWGSLTKQERKEYIDAVICLTKSPSKIDPALAPGARTRYDDFVAVHINQT  113
+            C       R ++ S+   ERK Y DAV CL   PS++DPA  P A  RY D+  +H+N+T
+Sbjct  46   CNSETIRTRVDFNSMAPAERKAYTDAVKCLMGKPSQLDPAQYPAAINRYMDYAVIHVNRT  105
+
+Query  114  LRIHTTGNFLTWHRYFTWAYEQALRNECGYTGYQPYWSWGKYVDDLLGSPIFDGSEYSMS  173
+              +H    FLTWHRYF W YE  LR  CGY G  PYW +     D    PIFDGSEYSMS
+Sbjct  106  QYVHLDAFFLTWHRYFLWLYESDLRQNCGYQGAFPYWDFAATASDPHAFPIFDGSEYSMS  165
+
+Query  174  GDGSYIPHDGPEVFEGVFLEP-GNGGGCVTSGPFKNFTVNLGPLWVTLNVPGVEKQNGTG  232
+            GDG Y  + GP         P G GGGCVT+GPF N    +  +  +    G    +   
+Sbjct  166  GDGLY-DNTGPITLGANLTIPHGTGGGCVTTGPFANMIAPIKFIDPSNLTTGTLPPD--A  222
+
+Query  233  LDYNPRCLRRDINPDAARWTTVEEVVDLINNYRDISSFQDRLQGDFVNGYIGVHTGGHYT  292
+              YN  CL+RD+N   ++  T +  +    +  + S F+  L G   +  +G+H+G H++
+Sbjct  223  FAYNEICLQRDLNAYVSQTYTNQAELTAAAHASNASEFEFLLNGIIGSSSLGIHSGAHFS  282
+
+Query  293  IGGDPAGDFYASPGDPAFFLHHAAIDRVFWTWQNLDPARRTFVVYGPTLLPGRGPSPNAT  352
+            IGG      + S  DP ++  H  IDRV+ +WQ   P     +           PSP  T
+Sbjct  283  IGGQ-MNSIHVSAQDPIWYPLHTMIDRVYTSWQTNYPELADQLDGSTGTALNIPPSPVVT  341
+
+Query  353  LDDVQ  357
+            LD V+
+Sbjct  342  LDTVE  346
+
+
+
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009160170.1 Length: 614 
+>tyrosinase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY59709.1 Length: 614  
+Range 1: 110 to 326
+
+Score:46.6 bits(109), Expect:7e-06, 
+Method:Compositional matrix adjust., 
+Identities:58/234(25%), Positives:83/234(35%), Gaps:38/234(16%)
+
+Query  117  HTTGNFLTWHRYFTWAYEQALRNECG----------YTGYQ--------PYWSWG--KYV  156
+            H    F TWHR +   +EQ L                T YQ        PYW W     +
+Sbjct  110  HAATPFPTWHRPYMALFEQVLWMHAQDIAATFPSSQRTEYQNAALSLRVPYWDWAINPAL  169
+
+Query  157  DDLLGSPIFDGSEYSMSGDGSYIPHDGPEVFEGVFLEPGNGGGCVTSGPFKNFTVNLGPL  216
+             D++  P     + S++          P ++  VF     G G  +S P  NF   +   
+Sbjct  170  PDVVTQP-----QISINTPSGRKTVKNP-LYSYVFQSDAAGNGFPSSDPMANFGETVR-W  222
+
+Query  217  WVTLNVPGVEKQNGTGLDYNPRCLRRDINPDAARWTTVEEVVDLINNYRDISSFQDRLQG  276
+            W T      +  N +  +         I       +   ++   + NY   S      QG
+Sbjct  223  WNT----ATQSSNQSAANAALMANAPTI------LSLTYQLFTAVTNYTYFSCTWPGGQG  272
+
+Query  277  DFVNGYIGVHTGGHYTIGGDPAGDFYASPG-DPAFFLHHAAIDRVFWTWQNLDP  329
+               N    +H   H ++GG     F    G DP F+LHHA +DR+F  WQ L P
+Sbjct  273  GVANNIEAIHNSIHNSVGGYGHMQFPEVAGFDPVFWLHHANVDRLFAMWQALYP  326
+
+
+
+>retrograde regulation protein 2 [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009154385.1 Length: 505 
+>retrograde regulation protein 2 [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY53924.1 Length: 505  
+Range 1: 392 to 411
+
+Score:28.5 bits(62), Expect:2.8, 
+Method:Compositional matrix adjust., 
+Identities:10/20(50%), Positives:15/20(75%), Gaps:0/20(0%)
+
+Query  212  NLGPLWVTLNVPGVEKQNGT  231
+            NL P+W+++N PG  K+ GT
+Sbjct  392  NLLPVWLSINTPGFTKRGGT  411
+
+
+
+>hypothetical protein HMPREF1120_05033 [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009157438.1 Length: 543 
+>hypothetical protein HMPREF1120_05033 [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY56977.1 Length: 543  
+Range 1: 4 to 60
+
+Score:28.1 bits(61), Expect:4.2, 
+Method:Compositional matrix adjust., 
+Identities:15/57(26%), Positives:27/57(47%), Gaps:12/57(21%)
+
+Query  5   LTTMVAALAAIPHATATL------------KDVDEWDILAGKALANQVLYQFTKPRY  49
+           L TM+A+L   P +  +L            +D+  WD+++ + ++      FTKP Y
+Sbjct  4   LLTMMASLTMKPSSQVSLPDLPDDMFLLVLRDLAAWDVVSCQQVSQSWRAAFTKPEY  60
+
+
+
+>NADH dehydrogenase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: XP_009153168.1 Length: 698 
+>NADH dehydrogenase [Exophiala dermatitidis NIH/UT8656]
+Sequence ID: EHY52707.1 Length: 698  
+Range 1: 452 to 489
+
+Score:27.7 bits(60), Expect:5.1, 
+Method:Compositional matrix adjust., 
+Identities:14/38(37%), Positives:18/38(47%), Gaps:0/38(0%)
+
+Query  266  DISSFQDRLQGDFVNGYIGVHTGGHYTIGGDPAGDFYA  303
+            D+S    +  GDF N    + T  H  + G P GD YA
+Sbjct  452  DLSKKIAQKLGDFQNNRHALETDSHLRLIGAPLGDVYA  489
+
+
+
+
+
+
+
+		
+
+

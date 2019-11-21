@@ -1,0 +1,387 @@
+RID: VDVEVVDD014	
+Job Title:XP_009160170 from E. dermatitidis onto Human				
+Program: BLASTP 
+Database: nr All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF excluding environmental samples from WGS projects
+Query #1:  Query ID: lcl|Query_3575 Length: 614
+
+Sequences producing significant alignments:
+                                                                  Max    Total Query   E   Per.                  
+Description                                                       Score  Score cover Value Ident  Accession        
+tyrosinase [Homo sapiens]                                         42.4   42.4  52%   0.009 21.88  AAA61244.1       
+tyrosinase [Homo sapiens]                                         40.8   40.8  37%   0.025 24.43  AGV39054.1       
+tyrosinase [Homo sapiens]                                         40.4   40.4  37%   0.031 24.43  AGV39086.1       
+tyrosinase precursor (EC 1.14.18.1) [Homo sapiens]                40.4   40.4  51%   0.032 23.50  AAA61241.1       
+tyrosinase [Homo sapiens]                                         40.4   40.4  37%   0.032 24.43  AGV39162.1       
+put. tyrosinase preprotein [Homo sapiens]                         40.4   40.4  37%   0.032 24.43  CAA68756.1       
+tyrosinase precursor [Homo sapiens]                               40.4   40.4  37%   0.035 24.43  AHZ44440.1       
+tyrosinase precursor [Homo sapiens]                               40.4   40.4  37%   0.035 24.43  NP_000363.1      
+tyrosinase [Homo sapiens]                                         40.4   40.4  37%   0.036 24.43  AAK00805.1       
+tyrosinase [Homo sapiens]                                         40.4   40.4  37%   0.037 24.43  AAB60319.1       
+tyrosinase isoform X1 [Homo sapiens]                              40.0   40.0  37%   0.047 24.43  XP_011541272.1   
+
+
+Alignments:
+>tyrosinase [Homo sapiens]
+Sequence ID: AAA61244.1 Length: 534 
+Range 1: 201 to 516
+
+Score:42.4 bits(98), Expect:0.009, 
+Method:Compositional matrix adjust., 
+Identities:77/352(22%), Positives:125/352(35%), Gaps:68/352(19%)
+
+Query  107  FCTHAATPFPTWHRPYMALFEQVLWMHAQDIAATFPSSQRTEYQNAALSLRVPYWDWAIN  166
+            F  H A  F  WHR ++  +EQ +     D   T                 +PYWDW  +
+Sbjct  201  FSAHEAPAFLPWHRLFLLRWEQEIQKLTGDENFT-----------------IPYWDWR-D  242
+
+Query  167  PALPDVVTQPQISINTP------------SGRKTVKNPLYSYVFQSDAAGNGFPSSDPMA  214
+                D+ T   +    P            S  + V + L  Y     +  NG P      
+Sbjct  243  AEKCDICTDEYMGGQHPTNPNLLSPASFFSSWQIVCSRLEEYN-SHQSLCNGTPEGPLRR  301
+
+Query  215  NFGETVRWWNTATQSSNQSAANAALMANAPTILSLTYQLFTAVTNYTYFSCTWPGGQGGV  274
+            N G      N    ++ +  ++A +     ++            N++ F  T  G    +
+Sbjct  302  NPG------NHDKSTTPRLPSSADVEFRCLSLTQYESGSMDKAANFS-FRNTLEGFASPL  354
+
+Query  275  ANNIEAIHNSIHNSVGGYGHMQFPEVAGF--DPVFWLHHANVDRLFAMW-------QALY  325
+                +A  +S+HN++  Y +    +V G   DP+F LHHA VD +F  W       Q +Y
+Sbjct  355  TGIADASQSSMHNALHIYMNGTMSQVQGSANDPIFLLHHAFVDSIFEQWLQRHRPLQEVY  414
+
+Query  326  P-----------DSFLVPTVNAYGSYYEGVGFVDSGTSALAPFHSDDGSTMFTSDAVRSI  374
+            P           +S++VP +  Y +   G  F+ S        +  D       D    I
+Sbjct  415  PEANAPIGHRNRESYMVPFIPLYRN---GDFFISSKDLGYDYSYLQDSDPDSFQDY---I  468
+
+Query  375  KTFGYSYPELPDWEMSASQLAANVRTSVNILYNPISNSTTARKKRSQQPRSA  426
+            K++      +  W + A+ + A +     +L  P+S     R KR Q P   
+Sbjct  469  KSYLEQASRIWSWLLGAAMVGAVLTA---LLAGPVS-LLCLRHKRKQLPEEK  516
+
+
+
+>tyrosinase [Homo sapiens]
+Sequence ID: AGV39054.1 Length: 529 
+Range 1: 202 to 433
+
+Score:40.8 bits(94), Expect:0.025, 
+Method:Compositional matrix adjust., 
+Identities:64/262(24%), Positives:95/262(36%), Gaps:64/262(24%)
+
+Query  110  HAATPFPTWHRPYMALFEQVLWMHAQDIAATFPSSQRTEYQNAALSLRVPYWDWAINPAL  169
+            H A  F  WHR ++  +EQ +     D   T                 +PYWDW  +   
+Sbjct  202  HEAPAFLPWHRLFLLRWEQEIQKLTGDENFT-----------------IPYWDWR-DAEK  243
+
+Query  170  PDVVTQPQISINTP------------SGRKTVKNPLYSYVFQSDAAGNGFPSSDPMANFG  217
+             D+ T   +    P            S  + V + L  Y     +  NG P      N G
+Sbjct  244  CDICTDEYVGGQHPTNPNLLSPASFFSSWQIVCSRLEEYN-SHQSLCNGTPEGPLRRNPG  302
+
+Query  218  ETVRWWNTATQSSNQSAANAALMANAPTILSLT-YQL--FTAVTNYTYFSCTWPGGQGGV  274
+               +       SS          A+    LSLT Y+        N++ F  T  G    +
+Sbjct  303  NHDKSRTPRLPSS----------ADVEFCLSLTQYESGSMDKAANFS-FRNTLEGFASPL  351
+
+Query  275  ANNIEAIHNSIHNSVGGYGHMQFPEVAGF--DPVFWLHHANVDRLFAMW-------QALY  325
+                +A  +S+HN++  Y +    +V G   DP+F LHHA VD +F  W       Q +Y
+Sbjct  352  TGIADASQSSMHNALHIYMNGTMSQVQGSANDPIFLLHHAFVDSIFEQWLRRHRPLQEVY  411
+
+Query  326  P----------DSFLVPTVNAY  337
+            P          +S++VP +  Y
+Sbjct  412  PEANAPIGHNRESYMVPFIPLY  433
+
+
+
+>tyrosinase [Homo sapiens]
+Sequence ID: AGV39086.1 Length: 529 
+Range 1: 202 to 433
+
+Score:40.4 bits(93), Expect:0.031, 
+Method:Compositional matrix adjust., 
+Identities:64/262(24%), Positives:95/262(36%), Gaps:64/262(24%)
+
+Query  110  HAATPFPTWHRPYMALFEQVLWMHAQDIAATFPSSQRTEYQNAALSLRVPYWDWAINPAL  169
+            H A  F  WHR ++  +EQ +     D   T                 +PYWDW  +   
+Sbjct  202  HEAPAFLPWHRLFLLRWEQEIQKLTGDENFT-----------------IPYWDWR-DAEK  243
+
+Query  170  PDVVTQPQISINTP------------SGRKTVKNPLYSYVFQSDAAGNGFPSSDPMANFG  217
+             D+ T   +    P            S  + V + L  Y     +  NG P      N G
+Sbjct  244  CDICTDEYMGGQHPTNPNLLSPASFFSSWQIVCSRLEEYN-SHQSLCNGTPEGPLRRNPG  302
+
+Query  218  ETVRWWNTATQSSNQSAANAALMANAPTILSLT-YQL--FTAVTNYTYFSCTWPGGQGGV  274
+               +       SS          A+    LSLT Y+        N++ F  T  G    +
+Sbjct  303  NHDKSRTPRLPSS----------ADVEFCLSLTQYESGSMDKAANFS-FRNTLEGFASPL  351
+
+Query  275  ANNIEAIHNSIHNSVGGYGHMQFPEVAGF--DPVFWLHHANVDRLFAMW-------QALY  325
+                +A  +S+HN++  Y +    +V G   DP+F LHHA VD +F  W       Q +Y
+Sbjct  352  TGIADASQSSMHNALHIYMNGTMSQVQGSANDPIFLLHHAFVDSMFEQWLRRHRPLQEVY  411
+
+Query  326  P----------DSFLVPTVNAY  337
+            P          +S++VP +  Y
+Sbjct  412  PEANAPIGHNRESYMVPFIPLY  433
+
+
+
+>tyrosinase precursor (EC 1.14.18.1), partial [Homo sapiens]
+Sequence ID: AAA61241.1 Length: 560 
+Range 1: 201 to 509
+
+Score:40.4 bits(93), Expect:0.032, 
+Method:Compositional matrix adjust., 
+Identities:82/349(23%), Positives:126/349(36%), Gaps:72/349(20%)
+
+Query  110  HAATPFPTWHRPYMALFEQVLWMHAQDIAATFPSSQRTEYQNAALSLRVPYWDWAINPAL  169
+            H A  F  WHR ++  +EQ +     D   T                 +PYWDW  +   
+Sbjct  201  HEAPAFLPWHRLFLLRWEQEIQKLTGDENFT-----------------IPYWDWR-DAEK  242
+
+Query  170  PDVVTQPQISINTP------------SGRKTVKNPLYSYVFQSDAAGNGFPSSDPMANFG  217
+             D+ T   +    P            S  + V + L  Y     +  NG P      N G
+Sbjct  243  CDICTDEYMGGQHPTNPNLLSPASFFSSWQIVCSRLEEYN-SHQSLCNGTPEGPLRRNPG  301
+
+Query  218  ETVRWWNTATQSSNQSAANAALMANAPTILSLTYQLFTAVTNYTYFSC--TWPGGQGGVA  275
+                  + +T     S+A+          LSLT     ++     FS   T  G    + 
+Sbjct  302  NH----DKSTTPRLPSSADVEF------CLSLTQYESGSMDKAANFSFRNTLEGFASPLT  351
+
+Query  276  NNIEAIHNSIHNSVGGYGHMQFPEV-AGFDPVFWLHHANVDRLFAMW-------QALYP-  326
+               +A  +S+HN++  Y +   P   +  DP+F LHHA VD +F  W       Q +YP 
+Sbjct  352  GIADASQSSMHNALHIYMNGHVPGTGSANDPIFLLHHAFVDSIFEQWLQRHRPLQEVYPE  411
+
+Query  327  ---------DSFLVPTVNAYGSYYEGVGFVDSGTSALAPFHSDDGSTMFTSDAVRSIKTF  377
+                     +S++VP +  Y +   G  F+ S        +  D       D    IK++
+Sbjct  412  ANAPIGHNRESYMVPFIPLYRN---GDFFISSKDLGYDYSYLQDSDPDSFQDY---IKSY  465
+
+Query  378  GYSYPELPDWEMSASQLAANVRTSVNILYNPISNSTTARKKRSQQPRSA  426
+                  +  W + A+ + A V T+  +L  P+  S   R KR Q P   
+Sbjct  466  LEQASRIWSWLLGAAMVGA-VLTA--LLAGPV--SLLCRHKRKQLPEEK  509
+
+
+
+>tyrosinase [Homo sapiens]
+Sequence ID: AGV39162.1 Length: 529 
+>tyrosinase [Homo sapiens]
+Sequence ID: AGV39166.1 Length: 529  
+Range 1: 202 to 433
+
+Score:40.4 bits(93), Expect:0.032, 
+Method:Compositional matrix adjust., 
+Identities:64/262(24%), Positives:95/262(36%), Gaps:64/262(24%)
+
+Query  110  HAATPFPTWHRPYMALFEQVLWMHAQDIAATFPSSQRTEYQNAALSLRVPYWDWAINPAL  169
+            H A  F  WHR ++  +EQ +     D   T                 +PYWDW  +   
+Sbjct  202  HEAPAFLPWHRLFLLRWEQEIQKLTGDENFT-----------------IPYWDWR-DAEK  243
+
+Query  170  PDVVTQPQISINTP------------SGRKTVKNPLYSYVFQSDAAGNGFPSSDPMANFG  217
+             D+ T   +    P            S  + V + L  Y     +  NG P      N G
+Sbjct  244  CDICTDEYMGGQHPTNPNLLSPASFFSSWQIVCSRLEEYN-SHQSLCNGTPEGPLRRNPG  302
+
+Query  218  ETVRWWNTATQSSNQSAANAALMANAPTILSLT-YQL--FTAVTNYTYFSCTWPGGQGGV  274
+               +       SS          A+    LSLT Y+        N++ F  T  G    +
+Sbjct  303  NHDKSRTPRLPSS----------ADVEFCLSLTQYESGSMDKAANFS-FRNTLEGFASPL  351
+
+Query  275  ANNIEAIHNSIHNSVGGYGHMQFPEVAGF--DPVFWLHHANVDRLFAMW-------QALY  325
+                +A  +S+HN++  Y +    +V G   DP+F LHHA VD +F  W       Q +Y
+Sbjct  352  TGIADASQSSMHNALHIYMNGTMSQVQGSANDPIFLLHHAFVDSIFEQWLRRHRLLQEVY  411
+
+Query  326  P----------DSFLVPTVNAY  337
+            P          +S++VP +  Y
+Sbjct  412  PEANAPIGHNRESYMVPFIPLY  433
+
+
+
+>put. tyrosinase preprotein, partial [Homo sapiens]
+Sequence ID: CAA68756.1 Length: 531 
+Range 1: 204 to 435
+
+Score:40.4 bits(93), Expect:0.032, 
+Method:Compositional matrix adjust., 
+Identities:64/262(24%), Positives:95/262(36%), Gaps:64/262(24%)
+
+Query  110  HAATPFPTWHRPYMALFEQVLWMHAQDIAATFPSSQRTEYQNAALSLRVPYWDWAINPAL  169
+            H A  F  WHR ++  +EQ +     D   T                 +PYWDW  +   
+Sbjct  204  HEAPAFLPWHRLFLLRWEQEIQKLTGDENFT-----------------IPYWDWR-DAEK  245
+
+Query  170  PDVVTQPQISINTP------------SGRKTVKNPLYSYVFQSDAAGNGFPSSDPMANFG  217
+             D+ T   +    P            S  + V + L  Y     +  NG P      N G
+Sbjct  246  CDICTDEYMGGQHPTNPNLLSPASFFSSWQIVCSRLEEYN-SHQSLCNGTPEGPLRRNPG  304
+
+Query  218  ETVRWWNTATQSSNQSAANAALMANAPTILSLT-YQL--FTAVTNYTYFSCTWPGGQGGV  274
+               +       SS          A+    LSLT Y+        N++ F  T  G    +
+Sbjct  305  NHDKSRTPRLPSS----------ADVEFCLSLTQYESGSMDKAANFS-FRNTLEGFASPL  353
+
+Query  275  ANNIEAIHNSIHNSVGGYGHMQFPEVAGF--DPVFWLHHANVDRLFAMW-------QALY  325
+                +A  +S+HN++  Y +    +V G   DP+F LHHA VD +F  W       Q +Y
+Sbjct  354  TGIADASQSSMHNALHIYMNGTMSQVQGSANDPIFLLHHAFVDSIFEQWLRRHRPLQEVY  413
+
+Query  326  P----------DSFLVPTVNAY  337
+            P          +S++VP +  Y
+Sbjct  414  PEANAPIGHNRESYMVPFIPLY  435
+
+
+
+>tyrosinase precursor [Homo sapiens]
+Sequence ID: AHZ44440.1 Length: 529 
+Range 1: 202 to 433
+
+Score:40.4 bits(93), Expect:0.035, 
+Method:Compositional matrix adjust., 
+Identities:64/262(24%), Positives:95/262(36%), Gaps:64/262(24%)
+
+Query  110  HAATPFPTWHRPYMALFEQVLWMHAQDIAATFPSSQRTEYQNAALSLRVPYWDWAINPAL  169
+            H A  F  WHR ++  +EQ +     D   T                 +PYWDW  +   
+Sbjct  202  HEAPAFLPWHRLFLLRWEQEIQKLTGDENFT-----------------IPYWDWR-DAEK  243
+
+Query  170  PDVVTQPQISINTP------------SGRKTVKNPLYSYVFQSDAAGNGFPSSDPMANFG  217
+             D+ T   +    P            S  + V + L  Y     +  NG P      N G
+Sbjct  244  CDICTDEYMGGQHPTNPNLLSPASFFSSWQIVCSRLEEYN-SHQSLCNGTPEGPLRRNPG  302
+
+Query  218  ETVRWWNTATQSSNQSAANAALMANAPTILSLT-YQL--FTAVTNYTYFSCTWPGGQGGV  274
+               +       SS          A+    LSLT Y+        N++ F  T  G    +
+Sbjct  303  NHDKSRTPRLPSS----------ADVEFCLSLTQYESGSMDKAANFS-FRNTLEGFASPL  351
+
+Query  275  ANNIEAIHNSIHNSVGGYGHMQFPEVAGF--DPVFWLHHANVDRLFAMW-------QALY  325
+                +A  +S+HN++  Y +    +V G   DP+F LHHA VD +F  W       Q +Y
+Sbjct  352  TGIADASQSSMHNALHIYMNGTMSQVQGSANDPIFLLHHAFVDSIFEQWLRRHRPLQEVY  411
+
+Query  326  P----------DSFLVPTVNAY  337
+            P          +S++VP +  Y
+Sbjct  412  PEANAPIRHNRESYMVPFIPLY  433
+
+
+
+>tyrosinase precursor [Homo sapiens]
+Sequence ID: NP_000363.1 Length: 529 
+>RecName: Full=Tyrosinase; AltName: Full=LB24-AB; AltName: Full=Monophenol monooxygenase; AltName: Full=SK29-AB; AltName: Full=Tumor rejection antigen AB; Flags: Precursor [Homo sapiens]
+Sequence ID: P14679.3 Length: 529 >tyrosinase [Homo sapiens]
+Sequence ID: AAA61242.1 Length: 529 >tyrosinase precursor [Homo sapiens]
+Sequence ID: AAB37227.1 Length: 529 >tyrosinase [Homo sapiens]
+Sequence ID: AGV39051.1 Length: 529 >tyrosinase [Homo sapiens]
+Sequence ID: AGV39052.1 Length: 529 >tyrosinase [Homo sapiens]
+Sequence ID: AGV39053.1 Length: 529  
+Range 1: 202 to 433
+
+Score:40.4 bits(93), Expect:0.035, 
+Method:Compositional matrix adjust., 
+Identities:64/262(24%), Positives:95/262(36%), Gaps:64/262(24%)
+
+Query  110  HAATPFPTWHRPYMALFEQVLWMHAQDIAATFPSSQRTEYQNAALSLRVPYWDWAINPAL  169
+            H A  F  WHR ++  +EQ +     D   T                 +PYWDW  +   
+Sbjct  202  HEAPAFLPWHRLFLLRWEQEIQKLTGDENFT-----------------IPYWDWR-DAEK  243
+
+Query  170  PDVVTQPQISINTP------------SGRKTVKNPLYSYVFQSDAAGNGFPSSDPMANFG  217
+             D+ T   +    P            S  + V + L  Y     +  NG P      N G
+Sbjct  244  CDICTDEYMGGQHPTNPNLLSPASFFSSWQIVCSRLEEYN-SHQSLCNGTPEGPLRRNPG  302
+
+Query  218  ETVRWWNTATQSSNQSAANAALMANAPTILSLT-YQL--FTAVTNYTYFSCTWPGGQGGV  274
+               +       SS          A+    LSLT Y+        N++ F  T  G    +
+Sbjct  303  NHDKSRTPRLPSS----------ADVEFCLSLTQYESGSMDKAANFS-FRNTLEGFASPL  351
+
+Query  275  ANNIEAIHNSIHNSVGGYGHMQFPEVAGF--DPVFWLHHANVDRLFAMW-------QALY  325
+                +A  +S+HN++  Y +    +V G   DP+F LHHA VD +F  W       Q +Y
+Sbjct  352  TGIADASQSSMHNALHIYMNGTMSQVQGSANDPIFLLHHAFVDSIFEQWLRRHRPLQEVY  411
+
+Query  326  P----------DSFLVPTVNAY  337
+            P          +S++VP +  Y
+Sbjct  412  PEANAPIGHNRESYMVPFIPLY  433
+
+
+
+>tyrosinase [Homo sapiens]
+Sequence ID: AAK00805.1 Length: 529 
+>tyrosinase [Homo sapiens]
+Sequence ID: AGV39050.1 Length: 529 >tyrosinase [Homo sapiens]
+Sequence ID: AGV39082.1 Length: 529 >tyrosinase [Homo sapiens]
+Sequence ID: AGV39084.1 Length: 529 >tyrosinase [Homo sapiens]
+Sequence ID: AGV39090.1 Length: 529  
+Range 1: 202 to 433
+
+Score:40.4 bits(93), Expect:0.036, 
+Method:Compositional matrix adjust., 
+Identities:64/262(24%), Positives:95/262(36%), Gaps:64/262(24%)
+
+Query  110  HAATPFPTWHRPYMALFEQVLWMHAQDIAATFPSSQRTEYQNAALSLRVPYWDWAINPAL  169
+            H A  F  WHR ++  +EQ +     D   T                 +PYWDW  +   
+Sbjct  202  HEAPAFLPWHRLFLLRWEQEIQKLTGDENFT-----------------IPYWDWR-DAEK  243
+
+Query  170  PDVVTQPQISINTP------------SGRKTVKNPLYSYVFQSDAAGNGFPSSDPMANFG  217
+             D+ T   +    P            S  + V + L  Y     +  NG P      N G
+Sbjct  244  CDICTDEYMGGQHPTNPNLLSPASFFSSWQIVCSRLEEYN-SHQSLCNGTPEGPLRRNPG  302
+
+Query  218  ETVRWWNTATQSSNQSAANAALMANAPTILSLT-YQL--FTAVTNYTYFSCTWPGGQGGV  274
+               +       SS          A+    LSLT Y+        N++ F  T  G    +
+Sbjct  303  NHDKSRTPRLPSS----------ADVEFCLSLTQYESGSMDKAANFS-FRNTLEGFASPL  351
+
+Query  275  ANNIEAIHNSIHNSVGGYGHMQFPEVAGF--DPVFWLHHANVDRLFAMW-------QALY  325
+                +A  +S+HN++  Y +    +V G   DP+F LHHA VD +F  W       Q +Y
+Sbjct  352  TGIADASQSSMHNALHIYMNGTMSQVQGSANDPIFLLHHAFVDSIFEQWLRRHRPLQEVY  411
+
+Query  326  P----------DSFLVPTVNAY  337
+            P          +S++VP +  Y
+Sbjct  412  PEANAPIGHNRESYMVPFIPLY  433
+
+
+
+>tyrosinase [Homo sapiens]
+Sequence ID: AAB60319.1 Length: 529 
+>tyrosinase [Homo sapiens]
+Sequence ID: AGV39049.1 Length: 529 >tyrosinase [Homo sapiens]
+Sequence ID: AGV39083.1 Length: 529 >tyrosinase [Homo sapiens]
+Sequence ID: AGV39087.1 Length: 529 >tyrosinase [Homo sapiens]
+Sequence ID: AGV39089.1 Length: 529  
+Range 1: 202 to 433
+
+Score:40.4 bits(93), Expect:0.037, 
+Method:Compositional matrix adjust., 
+Identities:64/262(24%), Positives:95/262(36%), Gaps:64/262(24%)
+
+Query  110  HAATPFPTWHRPYMALFEQVLWMHAQDIAATFPSSQRTEYQNAALSLRVPYWDWAINPAL  169
+            H A  F  WHR ++  +EQ +     D   T                 +PYWDW  +   
+Sbjct  202  HEAPAFLPWHRLFLLRWEQEIQKLTGDENFT-----------------IPYWDWR-DAEK  243
+
+Query  170  PDVVTQPQISINTP------------SGRKTVKNPLYSYVFQSDAAGNGFPSSDPMANFG  217
+             D+ T   +    P            S  + V + L  Y     +  NG P      N G
+Sbjct  244  CDICTDEYMGGQHPTNPNLLSPASFFSSWQIVCSRLEEYN-SHQSLCNGTPEGPLRRNPG  302
+
+Query  218  ETVRWWNTATQSSNQSAANAALMANAPTILSLT-YQL--FTAVTNYTYFSCTWPGGQGGV  274
+               +       SS          A+    LSLT Y+        N++ F  T  G    +
+Sbjct  303  NHDKSRTPRLPSS----------ADVEFCLSLTQYESGSMDKAANFS-FRNTLEGFASPL  351
+
+Query  275  ANNIEAIHNSIHNSVGGYGHMQFPEVAGF--DPVFWLHHANVDRLFAMW-------QALY  325
+                +A  +S+HN++  Y +    +V G   DP+F LHHA VD +F  W       Q +Y
+Sbjct  352  TGIADASQSSMHNALHIYMNGTMSQVQGSANDPIFLLHHAFVDSIFEQWLQRHRPLQEVY  411
+
+Query  326  P----------DSFLVPTVNAY  337
+            P          +S++VP +  Y
+Sbjct  412  PEANAPIGHNRESYMVPFIPLY  433
+
+
+
+>tyrosinase isoform X1 [Homo sapiens]
+Sequence ID: XP_011541272.1 Length: 471 
+Range 1: 202 to 433
+
+Score:40.0 bits(92), Expect:0.047, 
+Method:Compositional matrix adjust., 
+Identities:64/262(24%), Positives:95/262(36%), Gaps:64/262(24%)
+
+Query  110  HAATPFPTWHRPYMALFEQVLWMHAQDIAATFPSSQRTEYQNAALSLRVPYWDWAINPAL  169
+            H A  F  WHR ++  +EQ +     D   T                 +PYWDW  +   
+Sbjct  202  HEAPAFLPWHRLFLLRWEQEIQKLTGDENFT-----------------IPYWDWR-DAEK  243
+
+Query  170  PDVVTQPQISINTP------------SGRKTVKNPLYSYVFQSDAAGNGFPSSDPMANFG  217
+             D+ T   +    P            S  + V + L  Y     +  NG P      N G
+Sbjct  244  CDICTDEYMGGQHPTNPNLLSPASFFSSWQIVCSRLEEYN-SHQSLCNGTPEGPLRRNPG  302
+
+Query  218  ETVRWWNTATQSSNQSAANAALMANAPTILSLT-YQL--FTAVTNYTYFSCTWPGGQGGV  274
+               +       SS          A+    LSLT Y+        N++ F  T  G    +
+Sbjct  303  NHDKSRTPRLPSS----------ADVEFCLSLTQYESGSMDKAANFS-FRNTLEGFASPL  351
+
+Query  275  ANNIEAIHNSIHNSVGGYGHMQFPEVAGF--DPVFWLHHANVDRLFAMW-------QALY  325
+                +A  +S+HN++  Y +    +V G   DP+F LHHA VD +F  W       Q +Y
+Sbjct  352  TGIADASQSSMHNALHIYMNGTMSQVQGSANDPIFLLHHAFVDSIFEQWLRRHRPLQEVY  411
+
+Query  326  P----------DSFLVPTVNAY  337
+            P          +S++VP +  Y
+Sbjct  412  PEANAPIGHNRESYMVPFIPLY  433
+
+
+
+
+
+
+
+		
+
+
