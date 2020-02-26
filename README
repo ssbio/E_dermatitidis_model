@@ -1,0 +1,124 @@
+README
+WRITTEN BY: WHEATON L SCHROEDER
+LATEST VERSION: 02/26/2020
+
+FOLDER: 1.14.18.1_Alignments
+PURPOSE: Stores reports of BLASTp alignments between E. dermatitidis tyrosinase gene copies and the E. dermatitidis genome in a
+search for additional tyrosinases which may have not yet been annotated. None were found.
+
+FOLDER:A_nidulans_model_files
+PURPOSE: Store all files downloaded from the paper "Analysis of Apsergillus nidulans metabolism at the genome-scale" by
+David, Ozcelik, Hoffmann and Nielsen.
+
+FOLDER:A_nidulans_model_files
+PURPOSE: Store all files downloaded from the paper "Analysis of Apsergillus nidulans metabolism at the genome-scale" by
+David, Ozcelik, Hoffmann and Nielsen. Files include list of reactions, stoichiometries, metabolites, and enzymes used
+in model construction.
+
+FOLDER:A_niger_model_files
+PURPOSE: Store all files downloaded from the paper Metabolic model integration of the bibliome, genome, metabolome, and
+reactome of Aspergillus niger" by Andersen, Nielsen and Nielsen. Files include list of reactions, stoichiometries, 
+metabolites, and enzymes used in model construction.
+
+FOLDER:A_oryzae_model_files
+PURPOSE: Store all files downloaded from the paper "Improved annotation through genome-scale metabolic modeling of 
+Aspergillus oryzae" by Vongsangnak, Olsen, Hansen, Krogsgaard, and Nielsen. Files include list of reactions, 
+stoichiometries, metabolites, and enzymes used in model construction.
+
+FOLDER:A_terreus_model_files
+PURPOSE: Store all files downloaded from the paper "Genome-scale reconstruction and in silico analysis of Aspergillus
+terreus metabolism" by Liu, Gao, Xu and Liu.Files include list of reactions, stoichiometries, metabolites, and enzymes used
+in model construction.
+
+FOLDER: E_dermatitidis_tyrosinases
+PURPOSE: Contains FASTA files for each tyrosinase gene copy in E. dermatitidis. File names correspond to asseccion numbers.
+
+FOLDER: Supplemental_Files
+PURPOSE: Contains the supplemental files included with the publication of the journal article related to this work.
+
+FILE: BidirectionalBLAST.pl
+PURPOSE: Perl code which is used to perform the bidirectional BLASTp analysis to attempt to identify enzymes provided by some
+enzyme list file such as "EClist_1.txt" subject to the specifications of the "BlastSpect.txt" file. 
+
+FILE: BlastSpect.txt
+PURPOSE: Show formatting appropriate to the specifications file for the "BidirectionalBLAST.pl" code. This specifications file
+generally specifies the allowable percent positive substitution and expect value cutoffs for accepting BLASTp sequence 
+similarity in addition to providing the identity of the target organism and a list of organisms for which to use the amino
+acid sequence of a given enzyme (from a list file such as "EClist_1.txt") to identify that enzyme in a target organism.
+
+FILE: EClist_1.txt
+PURPOSE: List of enzymes for the BidirectionalBLAST.pl code to search the target genome for. This shows the formatting of
+such a list, but also highlights that for reasons of time, enzyme lists should be restricted to relatively small numbers and 
+long lists should be split into several small lists, each of which has a parallel version of BidirectionalBLAST.pl applied to
+it. 
+
+FILE: Enzymes1of4.txt
+PURPOSE: Full list of enzymes with compartmentalization that were unique to an Aspergillus model used in this work. 
+
+FILE: Enzymes2of4.txt
+PURPOSE: Full list of enzymes with compartmentalization that were common to exactly two Aspergillus model used in this work. 
+
+FILE: Enzymes3of4.txt
+PURPOSE: Full list of enzymes with compartmentalization that were common to exactly three Aspergillus model used in this work. 
+
+FILE: NCBIProteinDetails.txt
+PURPOSE: Comma seperated values table which has all the information about the E. dermatitidis genome downloaded from NCBI.
+
+FILE: NCBI_get_ECs.pl
+PURPOSE: perl code that takes the information downloaded from NCBI (file: "NCBIProteinDetails.txt") and uses the information in
+that file to attempt to identify the associated EC number with each gene using a search in the BRENDA database.
+
+FILE: Second_draft_E_Dermatitidis_Model.txt
+PURPOSE: List of reactions assocaited with the second draft of the E. dermatitidis model. 
+
+FILE: Third_draft_E_Dermatitidis_Model.txt
+PURPOSE: List of reactions assocaited with the third draft of the E. dermatitidis model. 
+
+FILE: Fourth_draft_E_Dermatitidis_Model.txt
+PURPOSE: List of reactions assocaited with the fourth draft of the E. dermatitidis model. 
+
+FILE: iEde2091.txt
+PURPOSE: List of reactions assocaited with the iEde2091 model. 
+
+FILE: UniProt_get_ECs.pl
+PURPOSE: perl code that takes the information downloaded from UniProt (file: "Uniprot_E_dermatitidis.txt") and uses the
+information in that file to attempt to identify the associated EC number with each gene using a search in the BRENDA database.
+
+FILE: Uniprot_E_dermatitidis.csv
+PURPOSE: Comma seperated values table which has all the information about the E. dermatitidis genome downloaded from UniProt.
+
+FILE: common_functions.pl
+PURPOSE: A library of Perl functions created by Wheaton L Schroeder utilized by many of the other Perl programs here to save
+time, lines of code, etc. Generally required by other Perl programs here. 
+
+FILE: ConvertDB1.py
+PURPOSE: Python code that takes a list of stoichiometeries formatted as "1of4DB.txt" to create an array of files required to
+use the database in GAMS code.
+
+FILE: ConvertModel.py
+PURPOSE: Python code that takes a list of stoichiometeries formatted as "iEde2091.txt" to create an array of files required to
+use the database in GAMS code.
+
+FILE: Curation_notes.txt
+PURPOSE: A selection of curation notes made by Wheaton L Schroeder in the manual curation of the model form the first draft
+model (not included here) to the created of the second draft model (saved as Second_draft_E_Dermatitidis_model.txt").
+
+FILE: get_shadow_prices.gms
+PURPOSE: GAMS code to run the iEde2091 model quickly through a number of different growth scenarios and report the shadow
+price of certain metabolites in those secenarios. 
+
+FILE: prep_for_optFill_ED1.pl
+PURPOSE: Perl code which makes a input files necessary for running the final iteration of OptFill (enzyems unique to one
+Aspergillus model). 
+
+FILE: 1of4DB.txt
+PURPOSE: contains the stoichiometery of all reactions in the database catalyzable by enzymes unique to one Aspergillus model
+used here.
+
+FILE: 2of4DB.txt
+PURPOSE: contains the stoichiometery of all reactions in the database catalyzable by enzymes common to exactly two
+Aspergillus models used here.
+
+FILE: 3of4DB.txt
+PURPOSE: contains the stoichiometery of all reactions in the database catalyzable by enzymes common to exactly three
+Aspergillus models used here.
