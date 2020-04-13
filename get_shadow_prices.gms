@@ -220,16 +220,26 @@ STRONGED.optfile=1;
 SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 *print output for the flux rates
-FILE RXNOUT /rxn_rates_out.txt/;
+FILE RXNOUT /rxn_rates_out.csv/;
 PUT RXNOUT;
 RXNOUT.lw = 25;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 
-PUT "/"/;
+PUT "trial";
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT jED.tl;
+
+);
+
+PUT /;
+
+PUT trial_count;
+
+LOOP(jED,
+
+	PUT vED.l(jED):0:8/;
 
 );
 
@@ -540,14 +550,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -738,14 +752,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -932,14 +950,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -1126,14 +1148,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -1320,14 +1346,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -1514,14 +1544,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -1708,14 +1742,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -1902,14 +1940,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
-RXNOUT.pc = 4;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -2095,14 +2137,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -2289,14 +2335,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -2483,14 +2533,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -2677,14 +2731,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -2871,14 +2929,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -3065,14 +3127,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -3259,14 +3325,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -3453,14 +3523,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -3646,14 +3720,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -3840,14 +3918,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -4034,14 +4116,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -4228,14 +4314,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -4422,14 +4512,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -4616,14 +4710,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -4810,14 +4908,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -5004,14 +5106,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -5197,14 +5303,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -5391,14 +5501,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -5585,14 +5699,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -5779,14 +5897,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -5973,14 +6095,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -6167,14 +6293,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -6360,14 +6490,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -6553,14 +6687,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -6746,14 +6884,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -6939,14 +7081,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
+
+PUT /;
 
 PUTCLOSE;
 
@@ -7132,16 +7278,18 @@ SOLVE STRONGED USING LP MAXIMIZING zprimal_ED;
 
 RXNOUT.ap = 1;
 PUT RXNOUT;
-RXNOUT.pc = 4;
+RXNOUT.pc = 5;
 RXNOUT.lw = 25;
+
+PUT trial_count;
 
 LOOP(jED,
 
-	PUT trial_count,jED.tl,vED.l(jED):0:8/;
+	PUT vED.l(jED):0:8;
 
 );
 
-PUT "/";
+PUT /;
 
 PUTCLOSE;
 
