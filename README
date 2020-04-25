@@ -122,3 +122,9 @@ Aspergillus models used here.
 FILE: 3of4DB.txt
 PURPOSE: contains the stoichiometery of all reactions in the database catalyzable by enzymes common to exactly three
 Aspergillus models used here.
+
+FILE: FVA.gms
+PURPOSE: GAMS code which is used to perform Flux Variability Analysis (FVA) on the iEde2091 model.
+
+FILE: FBA.gms
+PURPOSE: GAMS code which is used to perform Flux Balance Analysis (FBA) on the iEde2091 model. 
